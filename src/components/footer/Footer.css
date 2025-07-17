@@ -8,7 +8,7 @@
   
   .footer p {
     margin-bottom: 10px;
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
   
   .social-icons {
@@ -32,3 +32,8 @@
     color: #00e4d0; /* cool aqua highlight on hover */
   }
   
+  @media (max-width: 780px) {
+    .footer p {
+      font-size: 2rem;
+    }
+  }
