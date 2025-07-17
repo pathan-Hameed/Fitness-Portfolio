@@ -1,0 +1,90 @@
+/* Service Section Container - DARK THEME */
+.service-section {
+  background-color: #141414; /* Match about-section dark background */
+  color: #fff;
+  padding: 8rem 3rem;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 3rem;
+  padding: 50px 50px;
+  background-color: #141414;
+  align-items: center;
+  text-align: center;
+}
+
+/* Section Heading */
+.service-section h2 {
+  font-size: 5rem;
+  color: #fff;
+  padding: 2rem 4rem;
+}
+
+/* Individual Cards */
+.card {
+  min-width: 400px;
+  height: 400px;
+  background-color: #2c2c2c; /* Dark card */
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  background-color: #333;
+}
+
+/* Subheadings inside cards */
+.card h3 {
+  font-size: 3rem;
+  color: #00ffae; /* Bright green-blue pop */
+  margin-bottom: 30px;
+}
+
+/* Paragraph text */
+.card p {
+  font-size: 1.75rem;
+  color: #ccc;
+}
+
+@media (min-width: 768px) {
+  .service-section {
+    padding: 2rem 0;
+  }
+  .services {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    margin: 10px;
+    min-width: 400px;
+    min-height: 200px;
+    height: 200px;
+  }
+
+  .service-section h2 {
+    font-size: 3rem;
+  }
+
+  .card h3 {
+    font-size: 1.5rem;
+  }
+
+  .card p {
+    font-size: 1.2rem;
+  }
+
+  .result-section {
+    padding: 4rem 2rem;
+  }
+}
