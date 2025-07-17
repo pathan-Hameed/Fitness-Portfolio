@@ -22,6 +22,11 @@
   margin-bottom: 1rem;
 }
 
+.about-text h2 span {
+  color: #ffae42;
+  font-size: 3rem;
+}
+
 .about-text p {
   font-size: 1.1rem;
   line-height: 1.6;
@@ -87,9 +92,18 @@
     font-size: 5em;
   }
 
+  .about-text h2 span {
+    font-size: 7rem;
+  }
+
   .about-text p {
     font-size: 3rem;
-    line-height: 1;
+    line-height: 1.25;
+
+  }
+
+  .about-text p span {
+    color: #ffae42;
   }
 
   .proofs {

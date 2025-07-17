@@ -30,7 +30,7 @@ export default function PriceCard() {
       <h2>Choose Your Plan</h2>
       <div className="pricing-cards">
         {plans.map((plan, index) => (
-          <div className="card" key={index}>
+          <div className="pricingCard" key={index}>
             <h3>{plan.title}</h3>
             <p className="price">{plan.price}</p>
             <ul>

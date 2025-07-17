@@ -1,6 +1,6 @@
 .testimonials {
-  margin: 4rem 4rem;
   text-align: center;
+  padding: 4rem 0;
 }
 
 .testimonials h2 {
@@ -80,10 +80,12 @@ blockquote {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3rem;
   }
 
   .testimonials h2 {
     font-size: 5rem;
+    margin: 0;padding: 0;
   }
 
   .testimonial-card {

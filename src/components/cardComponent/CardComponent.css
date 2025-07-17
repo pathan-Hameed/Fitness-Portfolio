@@ -65,11 +65,12 @@
 /* Responsive */
 @media (max-width: 768px) {
   .testimonial-wrapper {
-    padding-top: 4rem;
+    margin-top: 8rem;
+  padding: 4rem;
   }
   .testimonial-wrapper  h2 {
     font-size: 5rem;
-    padding: 0 4rem;
+    padding: 0;
   }
   .custom-card {
     flex-direction: row;
@@ -77,6 +78,9 @@
     width: 80%;
     height: auto;
     border-radius: 10px;
+  }
+  .slick-slide {
+    height: 500px;
   }
 
   .card-image {

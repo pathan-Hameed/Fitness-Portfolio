@@ -10,9 +10,9 @@ export default function About() {
         <img src={alex} alt="fitness coach" />
       </div>
       <div className="about-text">
-        <h2>Meet Coach Alex</h2>
+        <h2>Meet <span>Coach Alex</span></h2>
         <p>
-          I'm Alex, a certified personal trainer with 8+ years of experience.{" "}
+          I'm  <span>Alex</span>, a certified personal trainer with 8+ years of experience.{" "}
           <br />
           <br />I help busy professionals and students build strong, healthy
           bodies through custom plans and consistent support.

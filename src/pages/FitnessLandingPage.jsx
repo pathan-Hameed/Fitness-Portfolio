@@ -47,8 +47,10 @@ export default function FitnessLandingPage() {
       <div className="contact-section" id="contact">
         <h2>Start Your Fitness Journey</h2>
         <p>Let's work together to achieve your fitness goals.</p>
-        <a href="mailto:hameed.learner@gmail.com" className="btn">
+        <a href="mailto:hameed.learner@gmail.com">
+          <button  className="btn">
           Email Me
+          </button>
         </a>
       </div>
 
