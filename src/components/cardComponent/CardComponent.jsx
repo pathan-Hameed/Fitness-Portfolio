@@ -8,7 +8,7 @@ import Slider from "react-slick";
 
 const CardComponent = () => {
   const cardSliderSettings = {
-    dots: false,
+    dots: true,
     arrows: true, // enable left/right arrows
     infinite: true,
     speed: 500,

@@ -45,14 +45,17 @@ export default function Testimonials() {
   };
 
   return (
-    <div className="testimonials">
-      <h2>What My Clients Say</h2>
+    <div>
       <Slider {...settings}>
         {testimonial.map((t, index) => (
           <div key={index} className="testimonial-card">
-            <img src={t.img} alt="profile" className="testimonial-img" />
-            <blockquote>{t.quote}</blockquote>
-            <p className="testimonial-name">{t.name}</p>
+            <div>
+              <img src={t.img} alt="profile" className="testimonial-img" />
+            </div>
+            <div>
+              <blockquote>{t.quote}</blockquote>
+              <p className="testimonial-name">{t.name}</p>
+            </div>
           </div>
         ))}
       </Slider>

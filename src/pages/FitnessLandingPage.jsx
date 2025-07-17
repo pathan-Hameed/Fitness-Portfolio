@@ -2,11 +2,8 @@ import React from "react";
 import "./FitnessLandingPage.css";
 import fitness from "../assets/fitness.jpg";
 import alex from "../assets/alexcoach.jpg";
-import before from "../assets/before.jpg";
-import before2 from "../assets/before2.jpg";
 import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import Testimonials from "../components/testimonials/Testimonials.jsx";
-import RealResults from "../components/cardComponent/CardComponent.jsx";
 import CardComponent from "../components/cardComponent/CardComponent.jsx";
 import PriceCard from "../components/priceCard/PriceCard.jsx";
 import Footer from "../components/footer/Footer.jsx";
@@ -99,7 +96,10 @@ export default function FitnessLandingPage() {
       </div>
 
       {/* testimonials  */}
+      <div  className="testimonials">
+      <h2>What My Clients Say</h2>
       <Testimonials />
+      </div>
 
       {/* before and after section  */}
       <div className="result-section">
