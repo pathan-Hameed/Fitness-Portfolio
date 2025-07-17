@@ -36,10 +36,7 @@ export default function FitnessLandingPage() {
       <Testimonials />
 
       {/* before and after section  */}
-      <div className="result-section">
-        <h2>The Real Results</h2>
         <CardComponent />
-      </div>
 
       {/* pricing section  */}
       <div className="price-section">

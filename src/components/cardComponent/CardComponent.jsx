@@ -43,6 +43,7 @@ const CardComponent = () => {
 
   return (
     <div className="testimonial-wrapper">
+        <h2>The Real Results</h2>
       <Slider {...cardSliderSettings}>
         {testimonials.map((testimonial, index) => (
           <div key={index}>
