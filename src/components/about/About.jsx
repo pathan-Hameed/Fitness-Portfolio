@@ -17,7 +17,7 @@ export default function About() {
         </p>
         <ul className="proofs">
           <li><span className="experience">8+</span><br />years</li>
-          <li><span className="certified">NASM</span><br /> Certified</li>
+          <li><span className="certified">NASM</span><br /> certified</li>
           <li><span className="experience">50+</span> <br /> got results</li>
         </ul>
         <div className="social-icons">

@@ -1,23 +1,56 @@
 .contact-button-container {
-    position: fixed;
-    bottom: 24px;
-    right: 24px;
-  }
-  
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1000;
+}
+
+.contact-button {
+  background-color: #2563eb;
+  color: white;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
+              0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: all 150ms ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  padding: 15px;
+}
+
+.contact-button:hover {
+  background-color: #1d4ed8;
+  transform: scale(1.05);
+}
+
+.contact-icon {
+  font-size: 30px;
+}
+
+/* Mobile specific adjustments */
+@media (max-width: 768px) {
   .contact-button {
-    background-color: #2563eb;
-    color: white;
-    padding: 12px;
-    border-radius: 9999px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
-                0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    transition: all 150ms ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 70px;
+    height: 70px;
+    padding: 18px;
   }
   
-  .contact-button:hover {
-    background-color: #1d4ed8;
-    transform: scale(1.05);
+  .contact-icon {
+    font-size: 34px;
   }
+}
+
+/* Very small devices */
+@media (max-width: 480px) {
+  .contact-button {
+    width: 65px;
+    height: 65px;
+    padding: 16px;
+  }
+  
+  .contact-icon {
+    font-size: 32px;
+  }
+}

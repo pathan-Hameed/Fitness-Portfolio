@@ -16,13 +16,11 @@ export default function FitnessLandingPage() {
       <div className="hero-section">
         <img src={fitness} alt="fitness img" className="hero-img" />
         <div className="hero-content">
-          <h1>Transform Your Body, Transform Your Life</h1>
-          <p>
-            <i>
+          <h1>Transform Your Life <br /> With Your Body</h1>
+          <i>
               Personalized fitness coaching to help you lose weight, gain
               muscle, and build confidence.
-            </i>
-          </p>
+          </i>
           <a href="#contact" className="btn">
             Get Started
           </a>

@@ -67,15 +67,15 @@
   .testimonial-wrapper {
     margin-top: 8rem;
   padding: 4rem;
+  margin-bottom: 0;
   }
   .testimonial-wrapper  h2 {
     font-size: 5rem;
     padding: 0;
   }
   .custom-card {
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 80%;
+    flex-direction: column;
+    width: 60%;
     height: auto;
     border-radius: 10px;
   }
@@ -84,19 +84,22 @@
   }
 
   .card-image {
-    max-width: 300px;
-    width: 250px;
+    max-width: 100%;
+    width: fit-content;
     max-height: 300px;
     height: auto;
+    background-color: aliceblue;
   }
 
   .card-content {
-    padding: 1.5rem;
+  padding: 2rem;
     text-align: left;
+    width: 100%;
   }
 
   .card-content h3  {
     font-size: 2rem;
+    text-wrap: nowrap;
   }
 
   .card-content p {

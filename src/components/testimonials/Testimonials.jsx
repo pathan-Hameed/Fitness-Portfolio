@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -9,7 +9,7 @@ const testimonial = [
   {
     img: alex,
     quote:
-      "Alex’s coaching changed my life. I lost 12kg in 4 months and feel more confident than ever!",
+      "Alex's coaching changed my life. I lost 12kg in 4 months and feel more confident than ever!",
     name: "– Priya S.",
   },
   {
@@ -26,19 +26,29 @@ const testimonial = [
 ];
 
 export default function Testimonials() {
+  const [expandedQuotes, setExpandedQuotes] = useState([]);
+
+  const toggleQuote = (index) => {
+    if (expandedQuotes.includes(index)) {
+      setExpandedQuotes(expandedQuotes.filter((i) => i !== index));
+    } else {
+      setExpandedQuotes([...expandedQuotes, index]);
+    }
+  };
+
   const settings = {
     dots: true,
     infinite: true,
     speed: 1000,
-    slidesToShow: 2, // shows 2 at a time
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000, // 3 seconds
+    autoplaySpeed: 4000,
     responsive: [
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1, // mobile view
+          slidesToShow: 1,
         },
       },
     ],
@@ -54,7 +64,12 @@ export default function Testimonials() {
               <img src={t.img} alt="profile" className="testimonial-img" />
             </div>
             <div>
-              <blockquote>{t.quote}</blockquote>
+              <blockquote
+                className={expandedQuotes.includes(index) ? "expanded" : ""}
+                onClick={() => toggleQuote(index)}
+              >
+                {t.quote}
+              </blockquote>
               <p className="testimonial-name">{t.name}</p>
             </div>
           </div>
