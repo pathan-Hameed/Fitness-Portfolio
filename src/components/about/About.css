@@ -20,16 +20,14 @@
 .about-text h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
-}
-
-.about-text h2 span {
   color: #ffae42;
   font-size: 3rem;
 }
 
 .about-text p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.6;
+  font-style: italic;
 }
 
 .about-img {
@@ -46,23 +44,31 @@
 }
 
 .proofs {
+  list-style: none;
   margin: 30px 20px;
-  list-style: square;
-  li {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  li span{
     padding: 5px 0;
+    font-size: 3rem;
     text-align: left;
+    color: #ffae42;
+    font-weight: bold;
   }
 }
 
 .social-icons {
   margin-top: 1.5rem;
   display: flex;
-  gap: 1rem;
+  justify-content: center;
+  gap: 50px;
 }
 
 .social-icons a {
   color: #f37021; /* Adjust color as needed */
-  font-size: 1.5rem;
+  font-size: 2rem;
   transition: color 0.3s ease;
 }
 
@@ -74,8 +80,8 @@
   .about-section {
     width: 100%;
     flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
+    align-items: center;
+    text-align: center;
     padding: 100px 50px;
   }
 
@@ -89,16 +95,13 @@
   .about-text h2 {
     margin-bottom: 0;
     padding: 2rem 0;
-    font-size: 5em;
-  }
-
-  .about-text h2 span {
-    font-size: 7rem;
+    font-size: 9em;
   }
 
   .about-text p {
     font-size: 3rem;
     line-height: 1.25;
+    font-style: italic;
 
   }
 
@@ -107,8 +110,30 @@
   }
 
   .proofs {
+    list-style: none;
+    width: 100%;
+    padding: 50px;
     font-size: 3rem;
-    padding-left: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+  .proofs li {
+    text-align: center;
+  }
+
+  .proofs li .experience {
+    color: #ffae42;
+    font-size: 7rem;
+    font-weight: bolder;
+  }
+
+  .proofs li .certified {
+    color: #ffae42;
+    font-size: 4rem;
+    font-weight: bolder;
   }
 
   .social-icons {

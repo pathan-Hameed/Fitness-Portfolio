@@ -7,6 +7,7 @@ import PriceCard from "../components/priceCard/PriceCard.jsx";
 import Footer from "../components/footer/Footer.jsx";
 import About from "../components/about/About.jsx";
 import Offer from "../components/offerservice/Offer.jsx";
+import ContactButton from "../components/contact/ContactButton.jsx";
 
 export default function FitnessLandingPage() {
   return (
@@ -17,12 +18,15 @@ export default function FitnessLandingPage() {
         <div className="hero-content">
           <h1>Transform Your Body, Transform Your Life</h1>
           <p>
-            Personalized fitness coaching to help you lose weight, gain muscle,
-            and build confidence.
+            <i>
+              Personalized fitness coaching to help you lose weight, gain
+              muscle, and build confidence.
+            </i>
           </p>
           <a href="#contact" className="btn">
             Get Started
           </a>
+          <ContactButton />
         </div>
       </div>
 
@@ -36,7 +40,7 @@ export default function FitnessLandingPage() {
       <Testimonials />
 
       {/* before and after section  */}
-        <CardComponent />
+      <CardComponent />
 
       {/* pricing section  */}
       <div className="price-section">
@@ -48,9 +52,7 @@ export default function FitnessLandingPage() {
         <h2>Start Your Fitness Journey</h2>
         <p>Let's work together to achieve your fitness goals.</p>
         <a href="mailto:hameed.learner@gmail.com">
-          <button  className="btn">
-          Email Me
-          </button>
+          <button className="btn">Email Me</button>
         </a>
       </div>
 

@@ -1,0 +1,23 @@
+.contact-button-container {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+  }
+  
+  .contact-button {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px;
+    border-radius: 9999px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
+                0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: all 150ms ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-button:hover {
+    background-color: #1d4ed8;
+    transform: scale(1.05);
+  }
