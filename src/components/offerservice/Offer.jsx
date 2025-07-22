@@ -24,6 +24,12 @@ export default function Offer() {
               tracking.
             </p>
           </div>
+          <div className="card">
+            <h3>Strength Training</h3>
+            <p>
+              Regain your strength from the depth of your muscles.
+            </p>
+          </div>
         </div>
       </div>
   )

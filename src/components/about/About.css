@@ -52,7 +52,7 @@
   align-items: center;
   li span{
     padding: 5px 0;
-    font-size: 3rem;
+    font-size: 2.2rem;
     text-align: left;
     color: #ffae42;
     font-weight: bold;
@@ -132,7 +132,7 @@
 
   .proofs li .certified {
     color: #ffae42;
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: bolder;
   }
 

@@ -23,7 +23,7 @@ const ContactButton = () => {
     href={isMobile ? "tel:+1234567890" : "mailto:you@example.com?subject=Portfolio Inquiry"}
     className="contact-button"
   >
-    {isMobile ? <FaPhone size={50} /> : <FaEnvelope size={100} />}
+    {isMobile ? <FaPhone size={100} /> : <FaEnvelope size={30} />}
   </a>
 </div>
   );
