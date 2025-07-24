@@ -44,6 +44,7 @@ export default function Testimonials() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 4000,
+    arrows: false,
     responsive: [
       {
         breakpoint: 768,

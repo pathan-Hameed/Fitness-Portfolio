@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <p>© 2025 Alex Fitness Coaching | All Rights Reserved</p>
-      <div className="social-icons">
+      <div className="footer-icons">
         <a
           href="https://instagram.com"
           target="_blank"

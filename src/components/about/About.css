@@ -95,7 +95,7 @@
   .about-text h2 {
     margin-bottom: 0;
     padding: 2rem 0;
-    font-size: 7em;
+    font-size: 5em;
   }
 
   .about-text p {
@@ -113,7 +113,7 @@
     list-style: none;
     width: 100%;
     padding: 50px;
-    font-size: 3rem;
+    font-size: 1.2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -127,13 +127,13 @@
 
   .proofs li .experience {
     color: #ffae42;
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: bolder;
   }
 
   .proofs li .certified {
     color: #ffae42;
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 2;
     font-weight: bolder;
   }

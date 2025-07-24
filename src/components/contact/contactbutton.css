@@ -21,7 +21,8 @@
 }
 
 .contact-button:hover {
-  background-color: #1d4ed8;
+  background-color: #16378f;
+  color: white;
   transform: scale(1.05);
 }
 

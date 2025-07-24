@@ -2,7 +2,6 @@ import React from "react";
 import "./FitnessLandingPage.css";
 import fitness from "../assets/fitness.jpg";
 import Testimonials from "../components/testimonials/Testimonials.jsx";
-import CardComponent from "../components/cardComponent/CardComponent.jsx";
 import PriceCard from "../components/priceCard/PriceCard.jsx";
 import Footer from "../components/footer/Footer.jsx";
 import About from "../components/about/About.jsx";
@@ -35,10 +34,9 @@ export default function FitnessLandingPage() {
       <Offer />
 
       {/* testimonials  */}
+      <div className="testimonial-section">
       <Testimonials />
-
-      {/* before and after section  */}
-      <CardComponent />
+      </div>
 
       {/* pricing section  */}
       <div className="price-section">

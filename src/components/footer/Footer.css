@@ -7,33 +7,39 @@
   }
   
   .footer p {
+    padding: 20px;
     margin-bottom: 10px;
     font-size: 1.25rem;
   }
   
-  .social-icons {
+  .footer-icons {
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
   }
   
-  .social-links a {
-    color: #ccc;
+  .footer-icons a {
+    color: #f37021;
     text-decoration: none;
     display: flex;
     align-items: center;
     gap: 6px;
     transition: color 0.3s ease;
-    font-size: 1rem;
+    font-size: 2rem;
   }
   
-  .social-links a:hover {
+  .footer-icons a:hover {
     color: #00e4d0; /* cool aqua highlight on hover */
   }
   
   @media (max-width: 780px) {
     .footer p {
+      font-size: 1.2rem;
+    }
+
+    .footer-icons a {
       font-size: 2rem;
     }
+
   }
